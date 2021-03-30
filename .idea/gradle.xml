@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Android_EditText" />
+        <option name="gradleJvm" value="13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Android_EditText" />
+            <option value="$PROJECT_DIR$/Android_EditText/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Android_TextView" />
+        <option name="gradleJvm" value="13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Android_TextView" />
+            <option value="$PROJECT_DIR$/Android_TextView/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Welcome" />
+        <option name="gradleJvm" value="13" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Welcome" />
+            <option value="$PROJECT_DIR$/Welcome/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

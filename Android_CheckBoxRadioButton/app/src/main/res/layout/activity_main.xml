@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" >
+
+        <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Color Setting Mode"
+                android:textSize="8pt" />
+
+        <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkBox3"
+                android:layout_marginEnd="16dp" >
+        </RadioGroup>
+
+        <RadioButton
+                android:id="@+id/radio0"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignEnd="@+id/checkBox3"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="18dp"
+                android:checked="true"
+                android:text="Set"
+                android:width="100dp" />
+
+        <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_below="@+id/textView1"
+                android:layout_marginTop="46dp"
+                android:text="Reset" />
+
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/radio1"
+                android:layout_marginTop="28dp"
+                android:text="Color Setting"
+                android:textSize="8pt" />
+
+        <CheckBox
+                android:id="@id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/textView2"
+                android:text="Red" />
+
+        <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkBox1"
+                android:text="Green" />
+
+        <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkBox2"
+                android:checked="true"
+                android:text="Blue" />
+
+        <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/radioGroup1"
+                android:background="#0000FF"
+                android:gravity="center"
+                android:text="Display Setting"
+                android:textColor="#FFFFFF"
+                android:textSize="10pt" />
+
+</RelativeLayout>
