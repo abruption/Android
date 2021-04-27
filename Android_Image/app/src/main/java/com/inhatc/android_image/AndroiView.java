@@ -60,7 +60,7 @@ public class AndroiView extends View {
                 break;
             case KeyEvent.KEYCODE_DPAD_DOWN:
                 iy += 15;
-                if (ix >= this.getHeight() - imgHeight) ix = this.getHeight() - imgHeight;
+                if (iy >= this.getHeight() - imgHeight) iy = this.getHeight() - imgHeight;
                 break;
         }
         this.invalidate();
