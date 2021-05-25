@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtFilePath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File"
+
+        android:layout_alignBaseline="@+id/edtSrcFile"
+        android:layout_alignBottom="@+id/edtSrcFile"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp" />
+
+    <EditText
+        android:id="@+id/edtSrcFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/txtFilePath"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/edtSrcFile"
+        android:layout_marginEnd="13dp"
+        android:text="Load" />
+
+    <CheckBox
+        android:id="@+id/chkLoop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edtSrcFile"
+        android:layout_below="@+id/btnLoad"
+        android:text="Loop" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnLoad"
+        android:layout_below="@id/btnLoad"
+        android:layout_marginTop="13dp"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnPlay"
+        android:layout_below="@id/btnPlay"
+        android:layout_marginTop="10dp"
+        android:text="Stop" />
+
+</RelativeLayout>
